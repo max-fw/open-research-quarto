@@ -1,0 +1,409 @@
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(glossary)
+glossary_path("include/glossary.yml")
+glossary_popup("click")
+```
+
+```{r, echo=FALSE, results='asis'}
+glossary_style("#1A43BF", "underline", 
+               def_bg = "#333",
+               def_color = "white")
+```
+
+# Transparency: As open as possible
+
+In Week 1, you learned about what transparency is, and why being transparent is important in research. Ensuring your study generates `r glossary("Open_", "open data and materials")` is a good way to increase the transparency of your research.
+
+## Sharing data and materials
+
+Making the outputs of your study more open means the data and materials you have gathered during your research can be used, reused, and redistributed by anyone. `r glossary("Data_", "Data")` refers to the information or facts collected, observed, or generated during the course of a study or investigation. For example, in the quantitative chocolate chip cookie example from Week 1, the chocolate chip ranking would be the data.
+
+`r glossary("Materials")` refers to any materials used in a research study. These can include (but are not limited to) the code used to run any statistical analyses, protocols outlining exactly what was done in the study, auditory and visual stimulus files shown to participants, questionnaires, documents used to obtain consent from participants, and videos of the study being run.
+
+### What are the benefits to sharing data and materials?
+
+There are many benefits to sharing data and materials. See if you agree with all of them:
+
+-   One is financial – the more products that are shared from any individual study, the more efficient the use of the funding used to conduct the study.
+-   Sharing data also allows others to check the data for quality and accuracy, reproduce the analyses reported in a research paper, and expand on the analyses through running alternative analyses.
+-   Most datasets have uses beyond what is reported in a paper, including secondary data analysis that addresses different questions altogether.
+-   Sharing data may be required by the project funder or the journal in which the article is published (see [Top Factor](https://www.topfactor.org/journals){target="_blank"} for a list of journal requirements).
+-   Just as in sharing data – readers can check what was done in the study, re-run the same study, or change the materials to run a slightly different study.
+
+## Open data
+
+Data can be shared even when it is not related to a paper. However, researchers tend to share data alongside their papers, so that readers can see the structure of their data more clearly, re-run analyses from the manuscript, run additional analyses, and use the data to answer new questions.
+
+### What do we mean by data? {.unnumbered}
+
+Data can look very different depending on the research field, for example:
+
+```{=html}
+<table>
+  <tbody>
+      <tr>
+    <td>Biology</td>
+      <td>Genomic data from projects like the Human Genome Project, providing sequences of human DNA and other organisms.</td>
+    </tr>
+        <tr>
+    <td>Social Sciences</td>
+      <td>Survey data on demographics, attitudes, and behaviours collected by organisations like the United Nations or national statistical agencies. </td>
+    </tr>
+    <tr>
+    <td>Medicine</td>
+      <td>Clinical trial data, including study protocols, patient demographics, treatment interventions, and health outcomes. </td>
+    </tr>
+    <tr>
+    <td>History</td>
+    <td>Archives of historical documents, such as diaries, letters, manuscripts, and government records, providing insights into past events, societies, and cultures.</td>
+    </tr>
+    <tr>
+    <td>Literature</td>
+    <td>Text datasets containing literary works, poetry, plays, and other written texts, facilitating analysis of language use, stylistic trends, and cultural themes.</td>
+    </tr>
+        <tr>
+    <td>Musicology</td>
+    <td>Musical score datasets, containing compositions from different composers, genres, and historical periods, for analysis of musical structure and style.</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+Even within one study, there will often be multiple levels of data. For example, a study using interviews will result in video recordings of the interviews, the source data, transcripts, processed data, and then the text from the transcript may be coded quantitatively or qualitatively, resulting in the coding data.
+
+#### Can all data be shared? {.unnumbered}
+
+Technically, it is possible for all of these to be shared, if participants have consented to do so. However, it is usually important to protect the anonymity of participants. While this is often possible to do with transcript data (after anonymising any identifying information about participants), this would be very difficult if sharing their video recordings.
+
+#### What data can or cannot be shared? {.unnumbered}
+
+When we talk about open data, the phrase **‘as open as possible, as closed as necessary’** is often used – meaning that researchers should strive to make their data open, but not where this would be unethical or illegal. Researchers must work within the ethical codes of their country and type of data collection. For example, in Europe, the General Data Protection Regulation (GDPR) sets out guidelines for dealing with ‘personal data’, i.e., any information related to an identifiable individual. To ensure human participants are not identifiable in our datasets, we as researchers must ensure we have removed all identifiable data from our datasets.
+
+In some cases, this is obvious, simple, and doesn’t affect the usefulness of the data shared, for example removing IP addresses from data collected online. However, there are other cases where this is much more complex, and may result in the data not being possible to share at all, for example where `r glossary("Qualitative", "qualitative")` data on a very specific topic makes participants identifiable.
+
+## The FAIR principles
+
+In the previous section, you considered different types of data, and how open you can be when sharing them. Given the subtleties, it is useful to have a clear set of guidelines. The FAIR principles provide this. They state that shared data should be FAIR – findable, accessible, interoperable, and reusable:
+
+-   `r glossary("Findable")`: Data should be easy to find for both humans and computers. This involves using unique identifiers and `r glossary("metadata")`.
+-   `r glossary("Accessible_", "Accessible")`: Once found, data should be easy to access, either openly or through an authentication or authorisation process. This ensures data is available in a standardised format.
+-   `r glossary("Interoperable")`: Data should be able to work with other data. This means using standardised formats and languages so that different systems can use the data together.
+-   `r glossary("Reusable")`: Data should be well-documented and organised so that it can be used again in future research, potentially by different people. This includes clear information about how the data were collected and any licenses or permissions needed for its use.
+
+### Expert voice: How do the FAIR principles work?
+
+In this video, Isabel Chadwick, a research data specialist from the Open University, talks about the `r glossary("FAIR", "FAIR principles")`, and how they can help researchers look after their data. As you watch the video, think about how you could follow Isabel’s advice in your own research.
+
+{{< video https://www.open.edu/openlearncreate/pluginfile.php/828330/mod_oucontent/oucontent/86913/9d2c3b0a/833253c8/vid_2_1.mp4 >}}
+
+::: {.callout-tip collapse="true"}
+## Video Transcript {.unnumbered}
+
+My name’s Isabel Chadwick. I've got a special interest in research data management. So my job involves helping researchers and research students to look after their data during their projects, thinking about all of the legal, ethical implications of looking after what is sometimes personal data, sometimes sensitive data, and sometimes just really, really big data.
+
+The FAIR data principles are intended to give guidelines on the findability, the accessibility, the interoperability and the reusability of digital assets that are created during the course of research.
+
+They go beyond merely saying that research data should be made open, and rather give more concrete guidance on how that data can be best exploited to enable reuse, replication, verification of results, any kind of scrutiny.
+
+So they’re really, really important because a huge amount of money and time is invested into generating research data globally.
+
+And if that data isn’t findable, if it can’t be accessed, if it doesn’t interoperate, then essentially it isn’t reusable - and that sort of means that it’s a huge financial loss for global research as well as a bit of a setback for research progress.
+
+Sometimes there are legal, ethical or commercial reasons why research data cannot be made publicly accessible.
+
+And FAIR data doesn’t always mean open data. So even where data has to be restricted to only allow access to certain people, or maybe even no people, the really important thing is that the metadata that describes that data is made available.
+
+Now, when we use the term metadata, what we mean is all of the information that builds up a picture about what that item or that data set might be. So a really good way of thinking about metadata is thinking about things that you use in your everyday life. So for example, you might have a record collection that you have organised according to different things.
+
+So you might have put it in alphabetical order according to the name of the artist, or you might have put it into different sections for classical, pop, rock, for example. Or you might simply have just done it in a colour order to make it look like a pretty rainbow and all of those are ways of organising information using different types of metadata in order to be able to find things and understand things more easily.
+
+And we do the same things with information that includes data sets, but also would be things like publications, so every published piece of research will have rich metadata assigned to it.
+
+When it comes to research data, that information is really, really important, because in terms of transparency, allowing people to understand how you created your data, what the data is - and pretty key to this is - how they can reuse it, is really important.
+
+To make your data FAIR, there are a few really key steps that come at different points in your research process. So right at the beginning of your research project, before you’ve even started collecting your data, we would always advise that you write a `r glossary("data management plan")`. And that plan should outline how you’re going to look after your data during your project, and then what’s going to happen to it after your project.
+
+In terms of what happens after your project, the best piece of advice for making your data FAIR, would be to deposit it in a trusted digital repository. And you should do this whether your data is going to be openly available to the public, or whether it’s going to have a restricted access placed upon it.
+
+The reason why we say that you should put your data into a trusted digital repository is because it will provide you with a persistent identifier like a DOI, which will ensure findability and accessibility of your data.
+
+In terms of reusability, it will also enable you to assign an open license to your data, so that people can understand what the terms of free use are, and they know what they are and aren’t allowed to do with that data when they access it.
+
+And finally, in terms of interoperability, what’s really important is that you use those DOIs or those persistent identifiers that you are provided with by your repositories, or by your publishers, to link your different outputs. So we want to see you linking your data sets with your publications, with your other outputs, with your software, for example, and your materials.
+
+That’s a really important aspect of FAIR.
+
+But, to start from the beginning, the `r glossary("data management plan")` is a really solid way to start.
+:::
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+Isabel explains that the FAIR principles make the best use of expensively acquired global research findings, given the limits to openness. She explains the key concept of ‘metadata’: something that allows you to organise your research data and publications. She advises researchers to write a data management plan at the outset of their study, and to place the material in a trusted digital repository at the end of the study (you will learn more about this later).
+  </p>
+</details>
+```
+
+::: callout-note
+## Pause for thought {.unnumbered}
+
+Data shouldn't just be FAIR for humans. It needs to be FAIR for machines as well. Take ten minutes to think about the implications of living in a world that's becoming more and more computationally intensive, and where global research data is being generated so quickly that humans struggle to keep up. How can you organise your own open data so computers are able to find it without human intervention? When you are ready, press 'reveal' to see our comments.
+:::
+
+## Licensing data
+
+In the video, Isabel Chadwick recommended that when researchers share their data, they should choose a license to apply to the data. A license is a set of rules and permissions that tells you how you can use someone else's data. It is like an agreement between the person who created the data (the data owner) and the person who wants to use it (the data user).
+
+A license specifies what you can and cannot do with the data, whether or not you need to give attribution to the data owner, and whether or not you can further share the data. For example, a common open license used for research data is [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en), which allows the person using your data to share and adapt the data, but only if they give attribution to you, the data owner, and don’t use the data for commercial purposes.
+
+There are other types of license, which allow you to specify different levels of openness. You can choose to give your work over to the public domain, so people can do whatever they like with it. Alternatively, you can choose a type of license which prevents users from adapting your work. You can find out more about licensing by referring to this helpful list on the [Creative Commons website](https://creativecommons.org/share-your-work/cclicenses/).
+
+#### Activity 1 {.unnumbered}
+
+*Allow about 10 minutes*
+
+In this activity, you can test your understanding of considering anonymity when it comes to data sharing.
+
+In an interview study about criminal experiences, three types of data are generated.
+
+-   A. Edited transcripts form the interview, with identifiable information removed
+-   B. Videos of people being interviewed
+-   C. Full unedited transcripts from the interview
+
+Which type of data do you think is the least likely that you will be able to be share them openly? Which would be the most likely?
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"} Take a moment to write your notes before continuing.
+
+## Where to share data?
+
+In the video, Isabel Chadwick explained that it is best practice to archive data and materials in an `r glossary("Open access", "open access repository")` to make your research accessible. Whether you choose an institutional repository or a discipline’s repository, these trusted digital platforms provide a safe way to store research materials and data, and link to related content held elsewhere.
+
+There are different repositories for different research fields and different types of data, but some examples are the Open Science Framework, the Qualitative Data Repository, and Zenodo. Here is an example of how to share data and materials on the Open Science Framework. The Open University also has its own repository (ORDO) where data and materials from researchers at The Open University can be shared.
+
+**Case Studies**
+
+```{=html}
+<table>
+  
+  <tbody>
+    <tr>
+    <td>Chemistry</td>
+      <td>This study by <a href="https://doi.org/10.12688/wellcomeopenres.15893.2" target="_blank">Lia et al. (2020)</a> investigates the structure and mechanisms of one enzyme involved in the chain of reactions through which our bodies metabolise glucose. All the data in this study are openly available with the paper, which directs readers to <a href="https://www.rcsb.org/" target="_blank">RCSB Protein Data Bank</a> and <a href="https://zenodo.org/record/3817277" target="_blank">Zenodo</a> for underlying data and extended data.</td>
+    </tr>
+    <tr>
+    <td>Psychology</td>
+    <td><a href="https://www.play-project.org/index.html" target="_blank">PLAY </a> (Play & Learning Across a Year) is a project that aims to explore infants and their mother’s natural behaviours in their homes, across 50 universities in the United States. All materials, home visit protocols and the video and questionnaire data collected are all openly available on their website.</td>
+    </tr>
+    <tr>
+    <td>Art</td>
+    <td>Quantitative and qualitative data and software related to an Open University PhD thesis by <a href="https://doi.org/10.21954/ou.rd.c.6693558" target="_blank">Kanter (2024)</a> have been shared openly on ORDO. This thesis was about British portraiture in the 1900s.</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+#### Activity 2 {.unnumbered}
+
+*Allow around 10mins*
+
+In this activity, you will get the opportunity to explore an open access repository.
+
+Have a look online for some open data and materials, preferably in your field of research. One way of doing this is to use keywords to search for projects on [ZENODO](https://zenodo.org/){target="_blank"}. Use the ‘search records’ box at the top to select your keywords, and use ‘resource types’ to filter your search so that it only includes datasets. Think of ways you could use the research products you find to answer a question that interests you.
+
+When you are ready, see our comments below.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+  <strong>Exploring an open access repository</strong><br>
+Your response will depend on your discipline and interests, and those of the researchers whose work you found. You might decide to use the data to generate new knowledge by analysing the original researchers’ datasets in new ways, or by running a related study based on their materials.
+  </p>
+</details>
+```
+
+#### Example of using data from Open Science Framework {.unnumbered}
+
+Here’s a real-life example of using data from the Open Science Framework platform for a `r glossary("Secondary_", "secondary data analysis")`.
+
+[Prinzing (2024)](https://doi.org/10.31234/osf.io/ac89k){target="_blank"} reused data from an experience sampling study (where participants are repeatedly asked about their daily experiences related to a particular topic) on pro-environmental, sustainable behaviour. Prinzing used these data to investigate whether engaging in sustainable behaviour increased a person’s wellbeing. They shared some of the original data that they used and their analysis code on a separate [OSF project](https://osf.io/hpvsu/){target="_blank"}. There are a few other things they could have done: they did not share a `r glossary("data dictionary")`, and they didn’t apply a license to the materials on their OSF project.
+
+Nevertheless, the author of this course, Silverstein (2020), was able to reproduce the analyses from Prinzing (2024) using their data and code. Interestingly, in the process of conducting this reproduction, Silverstein found a typo in one of the values in the paper! The authors have now updated this.
+
+## Reproducibility in quantitative research
+
+Open data is key to understanding one of the big concerns in quantitative research: `r glossary("Reproducibility", "reproducibility")`. Assessing reproducibility means assessing the value or accuracy of a scientific claim based on the original methods, data, and code. So, when you run the same analyses on the same data, do you get the same results?
+
+Running the same analyses on the same data can mean different things depending on what materials the reproducer has access to. Investigating the `r glossary("Reproduc1", "reproducibility")` of a study can mean taking the original data and:
+
+-   Following the description of analyses in the paper.
+-   Following an analysis plan created by the original authors.
+-   Re-running the analysis code that has been shared with the data.
+
+As you can imagine, it’s easier to get the same results as the original researchers if there is less uncertainty around what they did. So, re-running the analysis code will be more likely to produce the same results than following the description of analyses in the paper. Going back to our baking analogy, it would usually be easier to produce the same cake as a professional chef if they shared the recipe they used than if they just described what they did, and the more detail they provided in the recipe, the easier it would be. However, even if a professional chef shared both a detailed recipe and a description of what they did, your cake might end up with a soggy bottom! Similarly, in research, when we have both the code and the data, it can still be difficult to reproduce results.
+
+::: callout-tip
+## Make it more likely for other researchers to reproduce results of your study {.unnumbered}
+
+-   **Share a data dictionary** – list all the variables in your dataset, what they mean, how they were manipulated, and how they’re structured
+-   **Annotate your code** – make notes of what you did at each stage of the data pre-processing and analysis and why
+-   Make a note of **software versions** – analyses might stop working with future versions
+-   Make sure your data and code are **suitably licensed** – for example, a CC-BY-NC 4.0 license means that anyone can share or adapt the material as long as they give you appropriate credit and do not use the materials for commercial purposes.
+:::
+
+#### Activity 3 {.unnumbered}
+
+*Allow about 10 minutes.*
+
+This activity will allow you to test your understanding of reproducibility.
+
+You have been hired to run a reproduction of a study, and your goal is to ensure that the results are reproducible before a journal publishes it. Consider the situations below. Which do you think has the lowest likelihood of reproducing the study findings? Which has the highest likelihood?
+
+A. The paper comes with shared data but no code, however there is a detailed analysis plan explaining exactly which analyses were done in which order, and a data dictionary describing exactly how the data are named and structured.
+
+B. The paper comes with shared data and code, but the code is from over 10 years ago and doesn't specify which version of the software it used. The code isn't annotated and there is no data dictionary. Variable names in the data don't match what's in the code.
+
+C. The methods section of the paper isn't written very clearly, so you're not sure exactly how the key analysis was run or what the exclusion criteria are. The data have been shared, but without any code or analysis plan.
+
+::: {.callout-tip collapse="true"}
+### Correct Answer - Click to reveal {.unnumbered}
+
+1.  The methods section of the paper isn’t written very clearly, so you’re not sure exactly how the key analysis was run or what the exclusion criteria are. The data have been shared, but without any code or analysis plan.
+
+2.  The paper comes with shared data and code, but the code is from over 10 years ago and doesn’t specify which version of the software it used. The code isn’t annotated and there is no data dictionary. Variable names in the data don’t match what’s in the code.
+
+3.  The paper comes with shared data but no code, however there is a detailed analysis plan explaining exactly which analyses were done in which order, and a data dictionary describing exactly how the data are named and structured.
+:::
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"} Take a moment to write down your answers and logic.
+
+::: {.callout-caution collapse="true"}
+### This was a bit of a trick question! - Click for our comments {.unnumbered}
+
+Usually re-running analysis code will get you closer to the same results as the original researchers than following an analysis plan will, but in this case there are a lot of issues with the code that has been shared.
+
+**Scenario 1** is the one where you are least likely to be able to reproduce the original study’s findings. You don’t have much to work with at all: you have neither the code nor a detailed analysis plan. It will be very difficult to make sure you’re doing the exact same analysis as the authors, and so you’re a lot less likely to get the exact same results.
+
+In **Scenario 2**, although you have the code, it is old and doesn’t say which software version it used. You’re likely to run into errors when you try to run the code (the software may have changed since the code was originally written). Because the code isn’t annotated and there isn’t a data dictionary, it will be very hard to work out what the different sections of code are trying to do, meaning a lower likelihood of being able to ‘debug’ the code if you run into errors.
+
+**Scenario 3** gives the best chance of reproducing the original study’s findings. Although the original code hasn’t been shared, there is a detailed analysis plan and data dictionary, so you should be able to work out which variables are which, and follow what the authors did in their original analyses. Because there isn’t existing code, you won’t run into errors with the code not running, although you might get slightly different numbers due to different software versions having slightly different ways of running analyses (e.g. different default settings).
+:::
+
+## Open data in qualitative research
+
+In the previous section we considered transparency in a quantitative study. To recap, in quantitative studies your data will usually be numerical. You might measure how quickly people respond to stimuli on a computer, or how much people would be willing to pay for a certain item.
+
+Open data and materials can mean something quite different in qualitative research. This type of research focuses on patterns and themes in non-numerical data such as words, images, or observations. Imagine you are taking part in a qualitative study and are being interviewed about something close to your heart or your experiences. Try to imagine a topic that feels personal or emotive. Your data – instead of being a number – would be the actual words you said.
+
+-   How would you feel if you took part in an interview study about an emotive topic and your data was made open and accessible?
+-   Are there any situations where you would be happy for your data to be open?
+-   Are there any situations where you definitely wouldn’t want your data to be open?
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px"} Write down your thoughts in your notes.
+
+#### Activity 4: {.unnumbered}
+
+*Allow about 20 minutes.*
+
+Now read the vignette below, about a qualitative researcher considering sharing their data. Consider the benefits of making the data open, and the ethical issues that the researcher should consider.
+
+::: shadedbox
+A researcher is conducting a qualitative study with LGBTQ+ students about their experiences of mental health problems. The students that participated took part in in-depth interviews, which were video recorded, transcribed and analysed using thematic analysis. They gave consent for their data to be used in this study. The researcher is trying to work out whether or not to make the data from this study open.
+:::
+
+1.  What would be the benefits of making this data open?
+2.  What issues should the researcher consider when making this decision?
+
+Write your notes down, and see our comments when you are ready.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+  <strong>Benefits of making data open</strong><br>
+<li>Promotes transparency as others can see exactly how the research conclusions were derived.</li>
+<li> The data can be used in future studies, maximising the usefulness of the data and meaning further insights can be gained from the same data.</li>
+<li> The data can be used by a broader audience, including policymakers, practitioners, and researchers outside of the original researcher’s team.</li>
+<br><br>
+<strong>Issues</strong>
+<ul>
+<li>There could be risks to participants if they are identifiable, e.g., they might not be ‘out’ as LGBTQ+ or want people beyond the research study to know this information.</li>
+<li>Thematic analysis usually uses short quotes from interviews. Making the full interviews open and accessible can increase the likelihood of participants being identified.</li>
+<li>Participants only gave consent for their data to be used in this study, and did not have the opportunity to consent to their data being shared openly.</li>
+<li>Video recordings were made, but these are even more likely to make participants identifiable so likely shouldn’t be shared.</li>
+<li>Will participants be less likely to discuss their experiences if they know the data will be open?</li>
+</ul>
+  </p>
+</details>
+```
+
+### How can qualitative researchers overcome these challenges when planning their studies? {.unnumbered}
+
+We hope the suggestions in this section have helped you think about this. Qualitative researchers should consider using a `r glossary("data management plan")` at research inception, carefully anonymising their data, licensing the data or only making the data available to other researchers on request, getting consent from participants for open data up-front.
+
+Just as quantitative researchers aspire to make their research repeatable, for qualitative researchers, a bit of forward planning is important to make studies as transparent as they can be.
+
+## Quiz 2 {.unnumbered}
+
+This quiz covers concepts underlying the principle of transparency. See how much you have learned, and please read our feedback too.
+
+```{r echo = FALSE, message = FALSE}
+library("exams2forms")
+```
+
+```{r schoice1, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(c("assets/quiz/week2/q1.md", 
+              "assets/quiz/week2/q2.md", 
+              "assets/quiz/week2/q3.md", 
+              "assets/quiz/week2/q4.md", 
+              "assets/quiz/week2/q5.md"))
+```
+
+## Summary
+
+In this week, you learned about `r glossary("Transparent", "transparency")` in research, particularly focusing on open data and materials. You learned about the benefits of sharing data and materials, and practical ways you can share your materials. You learned about some of the nuances of different data across disciplines, and the importance of protecting participant anonymity and complying with legal regulations.
+
+In Week 3 you will learn about **integrity**. You will discover the `r glossary("Replicat1", "‘replication crisis’")` ‘replication crisis’ which is gripping parts of the research community, explore some questionable research practices, and learn how to find out whether the results of your research can be applicable to a wider context.
+
+## References
+
+Center for Open Science (2024): **Open Science Framework**\
+Available at: [https://osf.io/](https://osf.io/){target="_blank"}
+
+Center for Qualitative and Multi-Method Inquiry, Maxwell School of Citizenship and Public Affairs, Syracuse University (2023): **The Qualitative Data Repository**\
+Available at: [https://qdr.syr.edu/](https://qdr.syr.edu/){target="_blank"}
+
+Creative Commons (2024): **Share your work**\
+Available at: [https://creativecommons.org/share-your-work](https://creativecommons.org/share-your-work){target="_blank"}
+
+European Organization for Nuclear Research and OpenAIRE (2024): **Zenodo**\
+Available at: [https://zenodo.org](https://zenodo.org){target="_blank"}
+
+FORRT (2024): **Lesson plan 8: open data and qualitative research** (lesson template with a CC-By Attribution 4.0 licence).\
+Available at: [https://osf.io/nyfqx](https://osf.io/nyfqx){target="_blank"}
+
+Kanter, D (2024): **Open data relating to 'Collecting and connecting portrait sittings: a re-evaluation of portrait-sitting accounts in enhancing knowledge and understanding of British portraiture 1900-1960'**.\
+Available at: [https://doi.org/10.21954/ou.rd.c.6693558](https://doi.org/10.21954/ou.rd.c.6693558){target="_blank"}
+
+Lia, A, Dowle, A, Taylor, C, Santino A, Roversi, P (2020): **Partial catalytic Cys oxidation of human GAPDH to Cys sulfonic acid**\
+Available at: [https://wellcomeopenresearch.org/articles/5-114/v2](https://wellcomeopenresearch.org/articles/5-114/v2){target="_blank"}
+
+The Open University (2024): **Open Research Data Online (ORDO)**\
+Available at: [https://ordo.open.ac.uk/](https://ordo.open.ac.uk/){target="_blank"}
+
+Prinizing, M (2023): **Pro-environmental behavior increases subjective well-being: evidence from an experience sampling study and a randomized experiment**\
+Available at: [https://osf.io/preprints/psyarxiv/ac89k](https://osf.io/preprints/psyarxiv/ac89k){target="_blank"}
+
+**Play and Learning across a Year (PLAY)**\
+Available at: [https://play-project.org/index.html](https://play-project.org/index.html){target="_blank"}
+
+RCSB (2024): **Protein Data Bank**\
+Available at: [https://www.rcsb.org/](https://www.rcsb.org/){target="_blank"}
+
+Silverstein, P (2020): **Evaluating the replicability and specificity of evidence for natural pedagogy theory**\
+Available at: [https://www.research.lancs.ac.uk/ portal/ en/ publications/ evaluating-the-replicability-and-specificity-of-evidence-for-natural-pedagogy-theory(39b30b8b-7701-45b9-9009-d2d43bd5a006).html](https://www.research.lancs.ac.uk/%20portal/%20en/%20publications/%20evaluating-the-replicability-and-specificity-of-evidence-for-natural-pedagogy-theory(39b30b8b-7701-45b9-9009-d2d43bd5a006).html){target="_blank"}

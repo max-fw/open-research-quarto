@@ -1,0 +1,192 @@
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(glossary)
+glossary_path("include/glossary.yml")
+glossary_popup("click")
+```
+
+```{r, echo=FALSE, results='asis'}
+glossary_style("#1A43BF", "underline", 
+               def_bg = "#333",
+               def_color = "white")
+```
+
+# Committing to open research
+
+In Weeks 1 to 7, you learned about different aspects of transparency, integrity, and accessibility in open research. You discovered why these principles are important, and which open practices you can enact to ensure your own research is more in line with them.
+
+Now is the time to find out how you can commit to open research and make these practices a part of your research habits and norms!
+
+## Behaviour change
+
+Research is behaviour – we *do* research. Engaging in open research means engaging in a variety of specific behaviours. Some of these behaviours may have even been discouraged in some of the research training you have received, depending on when you did your research training. For this reason, it can be useful to think of engaging in open research as just another behaviour that you can think about changing, like healthy eating or exercising!
+
+The [COM-B model](https://thedecisionlab.com/reference-guide/organizational-behavior/the-com-b-model-for-behavior-change) proposes that *capability*, *opportunity*, and *motivation* are necessary for behaviour change. The diagram below summarises what the COM-B model says about the conditions that are most likely to lead to effective behaviour change.
+
+![COM-B Model](https://images.prismic.io/thedecisionlab/8b88058b-1d97-4cee-a664-6e0b17298519_20b5a024-787f-4c84-92aa-bf884a8ad2bf_the-com-b-model-for-behavior-change-1024x719.png?auto=format,compress){fig-align="center" fig-alt="The image shows questions a researcher can ask themselves about their capability, opportunity and motivation to change behaviour. Can the behaviour be accomplished? Is there sufficient opportunity for the behaviour to occur? Is there sufficient motivation for the behaviour to occur?"}
+
+In a [survey of researchers in psychology departments across the UK and Ireland](https://doi.org/10.1111/bjop.12700), researchers found that capability, opportunity, and motivation all affected someone’s likelihood to engage in open research practices (e.g. preregistration, and open data and materials). However, the strongest predictor was **automatic motivation** – that is, the researcher agrees with these statements:
+
+-   I have developed the habit of engaging in open research practices as an everyday part of my research process.
+-   When I think about my research, I automatically think about the open research elements as well.
+
+Do you agree with these statements?
+
+#### Activity 1 {.unnumbered}
+
+*Allow about 10 minutes.*
+
+Think about what you’ve learned so far this course. Write down your ideas about how you could implement open research as part of your everyday research habits.
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"}
+
+## Open access repositories
+
+One of the things that can make open research difficult to ease into is that there are many different resources, with contradictory or confusing advice on the best ways to engage in different open research practices. It can be onerous to find and navigate the multiple platforms, software packages and systems.
+
+Luckily, the [Open Science Framework](https://osf.io/) (OSF) does a lot of this work for us. The OSF is a free, open platform that supports research and enables collaboration. It also provides [guides on different aspects of open research](https://help.osf.io/). The OSF is not the only way to engage with different open research practices, but since it has functionality that covers several open research practices at once, it can be a good place to start. Some of the ways that you can use the OSF are outlined below.
+
+**Projects**
+
+[OSF projects](https://help.osf.io/article/353-welcome-to-projects) allows you to plan, collaborate, and organise your research studies. First, you create an OSF account. Then create a project: think of it as a folder for everything to do with one study. You can add collaborators, upload files, and review any additional capabilities that you may or may not want to use (e.g. integration with different software like Google docs or GitHub). Projects can be kept private or made public, so this can be a great way to share your data and materials publicly when they’re ready. Some people find it helpful to add materials as they progress with a study, and others just upload everything when finished.
+
+**Preregistration**
+
+You can also use the OSF to [preregister](https://help.osf.io/article/330-welcome-to-registrations) your studies. Preregistration plans can be of various levels of specificity (from answering a few quick questions to creating extensive documents including analysis plans), and these different levels can all be preregistered on the OSF with a variety of [templates](https://osf.io/zab38/) for research from different disciplines or methodologies. After you have drafted your preregistration, once you ‘register’ them officially, they get locked and timestamped. You can link your preregistration to your OSF project, which also enables you to include any additional documents related to your project.
+
+**Preprints**
+
+You can also use the OSF to upload a `r glossary("Preprint", "preprint")` of your work. As you learned in Week 6, a preprint is an open-access version of your work. A preprint server is the platform that hosts your preprint: it is free to access, both for you, the uploader, and your readers. Preprint servers are usually by research discipline, but can also be organised in other ways, e.g. [AfricaArXiv](https://info.africarxiv.org/){target="_blank"} is a preprint server for research done by African researchers across all disciplines. Several [preprint servers](https://osf.io/preprints){target="_blank"} are hosted through the OSF (including, but not limited to, [PsyArXiv](https://osf.io/preprints/psyarxiv/){target="_blank"}, [SocArXiv](https://socopen.org/){target="_blank"}, and [SportRxiv](https://sportrxiv.org/index.php/server){target="_blank"}. If none of the listed servers represent your work well then you can also upload your preprint under the general ‘OSF preprints’. You can also link the preprint to your OSF project, so readers can easily access other materials related to your project.
+
+In general, the OSF is a great ‘one-stop shop’ for enacting many of the open research practices that you have learned about in this course. By learning how to navigate and use this one platform, you can integrate many open research practices into your research habits. But it is not the only trusted repository – as you learned in Week 2, there are various institutional and discipline repositories. The Open University also has its own research repository for collaborating, planning and organising research projects, called [ORDO](https://ordo.open.ac.uk/).
+
+#### Activity 2 {.unnumbered}
+
+*Allow about 20 minutes.*
+
+This activity will familiarise you with two open access repositories: ORDO and OSF.
+
+#### Activity 2.1 {.unnumbered}
+
+Browse through [ORDO](https://ordo.open.ac.uk/){target="_blank"} and see if you can find a dataset for a project called ‘Building trust in digital policing: A scoping review of community policing apps’ published by an author of this course. How many categories (fields) are included in this project?
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion</summary>
+  <p>
+  <br>
+You should have been able to locate the dataset. It was part of a research project which included seven fields of study, and the dataset has been downloaded several hundred times. It is stored on ORDO under a permanent, citable web link.
+  </p>
+</details>
+```
+
+#### Activity 2.2 {.unnumbered}
+
+Now, we turn our attention to the OSF. If you belong to a discipline for which the OSF would not be a natural choice, you can substitute a different repository that is targeted to your discipline.
+
+Make an OSF account (if you don’t already have one), and create a project for one of your research studies. You can keep it private so don’t worry about making it perfect! Go through some of the [OSF guides](https://help.osf.io/article/353-welcome-to-projects){target="_blank"}, then upload some documents and organise your project into different components and subfolders.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion</summary>
+  <p>
+  <br>
+You have now set up your own OSF account and created a project. You can choose to make the elements of your project public when you’re ready, or if you are using this as a private practice run, that’s okay too. It’s useful to keep OSF guides nearby while you familiarise yourself with the OSF platform. Keep practicing and if you like, explore other features e.g. adding collaborators (contributors) to projects!
+  </p>
+</details>
+```
+
+## Finding your community
+
+Having access to resources that help you engage in open research practices is a great first step, but navigating your open research journey will be so much easier if you surround yourself with like-minded people who can help each other. Being a part of a community means you have people you can turn to if you have questions: you can learn from each other's mistakes and successes, and maybe even forge collaborations!
+
+::: shadedbox
+**Nowhere Lab**\
+[Nowhere Lab](https://nowherelab.com/) is an online community that anyone can join that holds weekly Zoom meetings and has an active `r glossary("Slack community")`. It is hosted by the lead author of this course. Although Nowhere Lab is not explicitly focused on open research, open research is a topic that is heavily covered, whether that be through discussion sessions, journal clubs (where members discuss a paper together), or training on different open research practices.
+:::
+
+\
+
+::: shadedbox
+**FORRT**\
+The Framework for Open and Reproducible Research Training ([FORRT](https://forrt.org/)) is a community of educators who wish to integrate open science principles into their teaching. They strive for open and reproducible research training, advancing research transparency, reproducibility, rigour, and ethics through educational reform. FORRT provides educational infrastructure and resources designed to support the teaching and mentoring of open and reproducible science. You can explore their resources directly to learn more about open research, and join their Slack community.
+:::
+
+### Open research across disciplines
+
+Interdisciplinary communities can be great for learning about how open research affects different fields differently. They can also be helpful for finding out how open research is done in your specific field. For this, check out [Open Research Across Disciplines](https://www.ukrn.org/disciplines/) – a tool for exploring open research resources and case studies across fields. You can also use this resource to find people working on open research in your field and even reach out to them!
+
+**Big team science**\
+Big team science has been mentioned a few times in this course, and it’s worth noting that as well as the benefits for credibility and `r glossary("Accessibility", "accessibility")` of research, big team science can also be a great way of finding and building community. Joining a big team science project in your field can be a great way to learn about open research and get started in some open research practices before applying them to your own research.
+
+#### Activity 3.1 {.unnumbered}
+
+*Allow about 10 minutes.*
+
+Use the [Open Research Across Disciplines](https://www.ukrn.org/disciplines/) tool to find resources for open research in your field. Think about how you could apply these tools or ideas to your own research habits.
+
+Go back to your notes for [Activity 1]() of this week, where you were asked to write down ideas of how you could implement open research as part of your everyday research habits. Now, think about how you can share your data and materials from a research project you have finished. If you have not finished a project yet, you can use an imaginary one.
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"}
+
+#### Activity 3.2 {.unnumbered}
+
+*Allow about 10 minutes*
+
+[![Click to open an interactive tool created by Open University.](images/decision_tree.png)](https://www.open.edu/openlearncreate/pluginfile.php/842990/mod_resource/content/1/index.html)
+
+Use the [open research decision tree](https://www.open.edu/openlearncreate/pluginfile.php/842990/mod_resource/content/1/index.html){target="_blank"} to look up some possibilities. Click on the link to the open research decision tree, click the *Actions* button, then the *I’ve finished* button. This will take you to about ten possible actions you could take. What are they? Not all of these actions may be appropriate or achievable in your particular project – that’s fine! Once you have lined up some possible courses of action, you can choose the ones that are most practicable.
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"} Record in your notes what you find.
+
+## Quiz
+
+Are you ready to test your knowledge and show yourself how much you have learned? Take the quiz now!
+
+```{r echo = FALSE, message = FALSE}
+library("exams2forms")
+```
+
+```{r schoice1, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(c("assets/quiz/week8/q1.md", 
+              "assets/quiz/week8/q2.md", 
+              "assets/quiz/week8/q3.md", 
+              "assets/quiz/week8/q4.md", 
+              "assets/quiz/week8/q5.md"))
+```
+
+## Summary
+
+Congratulations – you’ve reached the end of the final week of the course! This week, you explored how to incorporate open research into your research routine by using the support and resources that are out there, and discovering your own open research community.
+
+Over this whole open research course, you’ve learned about why transparency, credibility, and `r glossary("Accessibility", "accessibility")`are so important in open research, and how to apply these values to your own research. You have explored some of the actions that you can take in order to ensure your research complies with these. You have developed skills in key processes of open research, such as replication, preregistration, transparent writing, robustness analysis and open publishing.
+
+We hope you have enjoyed the course, and that you will continue enjoy taking what you have learned here into the wider world of open research.
+
+## References
+
+Center for Open Science (2024): **OSF Preprints**\
+Available at: <https://osf.io/preprints>
+
+Farran, E. K., Silverstein, P., Ameen, A. A., Misheva, I., Gilmore, C. **Open Research: examples of good practice and resources across disciplines**\
+Available at: <https://osf.io/preprints/osf/3r8hb>
+
+Kathawalla, U., Silverstone, P., Syed, M, (2021): **Easing into open science: a guide for graduate students and their advisors**, University of California Press\
+Available at: <https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/bjop.12700>
+
+Silverstein, P, Pennington, C, Branney, P, O’Connor, D, Lawlor, E, O’Brien, E, Lynott, D (2024): **A registered report survey of open research practices in psychology departments in the UK and Ireland**, British Journal of Psychology; 115: 497-534\
+Available at: [https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/ bjop.12700](https://bpspsychub.onlinelibrary.wiley.com/doi/pdf/10.1111/%20bjop.12700){target="_blank"}
+
+Silverstein, P (2024): **Nowhere lab**\
+Available at: <http://nowherelab.com/>
+
+The Open University (2024): **Open Research Data Online (ORDO)**\
+Available at: <https://ordo.open.ac.uk/>
+
+**The Framework for Open and Reproducible Research Training (FORTT)**\
+Available at: <https://forrt.org/>
+
+UbuntuNet Alliance (2024): **AfricArxiv**\
+Available at: <https://info.africarxiv.org/>
+
+UK Reproducibility Network (2024): **Open research across disciplines**\
+Available at: <https://www.ukrn.org/>

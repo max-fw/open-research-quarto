@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: docs
+book:
+  title: Open Research
+  author: Priya Silverstein
+  chapters:
+  - part: Overview
+    chapters: 
+    - index.qmd
+  - part: Chapters
+    chapters:
+    - Week1.qmd
+    - Week2.qmd
+    - Week3.qmd
+    - Week4.qmd
+    - Week5.qmd
+    - Week6.qmd
+    - Week7.qmd
+    - Week8.qmd
+  - part: Appendices
+    chapters:
+    - glossary.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: 
+    - styles.css
+    - include/webex.css
+    include-after-body: include/webex.js
+    linestretch: 1.75
+
+editor: visual
+toc: true
+toc-depth: 4
+from: markdown+emoji
+include-in-header:
+  - text: |
+     <link rel = "shortcut icon" href = "assets/forrt_icon.png" />

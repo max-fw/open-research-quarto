@@ -1,0 +1,306 @@
+
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(glossary)
+glossary_path("include/glossary.yml")
+glossary_popup("click")
+```
+
+```{r, echo=FALSE, results='asis'}
+glossary_style("#1A43BF", "underline", 
+               def_bg = "#333",
+               def_color = "white")
+```
+
+# Integrity: Challenging questionable research practices
+
+In Week 1, we broke down the idea of open research into three key facets that make research open: transparency, integrity and accessibility. We’re now going to take a deeper dive into integrity: how trustworthy a study is.
+
+In this week, you will learn how to recognise and avoid questionable research practices. You will discover why it is often important to be able to replicate other researchers’ findings, and how to go about doing this. You will experience an important test for the integrity of a piece of research: its .
+
+## Replicability
+
+There may be cases where you don’t expect to get the same results if you conduct the same study again. For example, if a study is based around a specific political event, it may be difficult or even impossible to replicate. But in many other types of investigation, we would expect to be able to get the same results when we run the same study again.
+
+In Week 2, we talked about `r glossary("Reproducibility", "reproducibility")` – being able to get the same results when conducting the same analyses on the same data as the original study. `r glossary("Replicability")` is similar, in that it’s about getting the same results as the original study when running the same analyses, however, the difference is that now these analyses are run on new data. So, replication means conducting the same study again, and seeing if you get the same results.
+
+Replication studies are deliberate attempts to do this. But what does the ‘same study’ mean? There are always going to be differences between the original study and the replication study. Replication studies vary on a spectrum from ‘direct’ to ‘conceptual’. `r glossary("Direct replications")` try to stay as close to the original study as possible, whereas `r glossary("Conceptual replications", "conceptual replications")` purposefully vary some aspects to better understand the underlying phenomenon. Here are some examples, from most direct (the first) to most conceptual (the last):
+
+-   A researcher makes a surprising finding in their research. To test whether they should rely on this result, they conduct a replication immediately after, using all the same materials and the same participant pool.
+-   A researcher wants to replicate a study they’ve read about. The study is much older (from the 1990s), when open materials were not common. They only have the methods described in the original short paper to refer to, so they interpret these as best they can.
+-   A researcher wants to replicate a study they’ve read about. They don’t think the original study was well-designed, but they think the hypothesis is interesting so they design a new study testing the same hypothesis but in a different way.
+
+Now let’s dig deeper into the process of designing a replication study.
+
+## Replication studies
+
+In the next video, psychologist Priya Silverstein talks about their first forays into conducting a replication study, and lessons learned. As you watch the video, think about what Priya’s results tell us about the process of running a good replication study.
+
+{{< video https://www.open.edu/openlearncreate/pluginfile.php/828891/mod_oucontent/oucontent/86995/9d2c3b0a/8b3f7881/vid_3_1.mp4 >}} [Download the video](https://www.open.edu/openlearncreate/pluginfile.php/828891/mod_oucontent/oucontent/86995/9d2c3b0a/8b3f7881/vid_3_1.mp4?forcedownload=1){target="_blank"}
+
+::: {.callout-tip collapse="true"}
+## Video transcript {.unnumbered}
+
+Hi everyone, my name’s Priya Silverstein and I'm a post-doctoral researcher for the Psychological Science Accelerator, and I'm also the author for this course. My pronouns are ‘they, them’.
+
+As part of my PhD, I ran my first replication study. It wasn't meant to be a big part of my PhD, but it ended up being one of the biggest parts!
+
+I thought that before starting any of my own original research, it would make more sense to start with a replication study. However it wasn’t that simple, so when I ran the replication study, surprisingly, we got a null result, and I was a bit confused about why this might be. So the first thing that I did was I contacted the original researchers to ask them what they thought might be the problem.
+
+They got back to me and they said that they thought it was because of some differences between the stimuli, so the things that I'd shown in my study versus the things that they showed in the original. And some of these differences were things I couldn't have known, because they didn't outline the specifics of that in their original paper.
+
+I made some edits to the protocol to the way that I was going to run the study.
+
+And then I thought, okay, now that I've had approval from the original authors this new version should be able to replicate the original study. So I ran it again and surprisingly I still wasn't able to replicate the result.
+
+Erm and so this was quite disappointing, both for me and the original authors, because it meant that I wasn't able to find the same thing that they did.
+
+So... This was my first experience of replications. And you might think that that was enough to put me off doing any more, but instead, quite the opposite. I ended up realising how important replications are.
+
+So yeah, ever since starting with that first replication study as part of my PhD, I've now kind of made that my specialty.
+
+My advice for anyone who would be conducting their own replication study comes from some of the mistakes that I made as part of that first replication study that I did.
+
+So my first piece of advice would be to always contact the authors before you begin your replication study.
+
+I think I was a bit naïve, and thought if I just follow what's written in the paper then how can I go wrong? But papers don't have enough space to include everything about a study that you would need to know in order to conduct a good replication.
+
+So I'd recommend talking to the original authors, coming to an agreement with them, making sure that they agree that the protocol that you've proposed, they would agree that's a good faith replication attempt of their study.
+
+Another thing that I did wrong is that I only collected the same number of participants as in the original study, for my replication, because I thought that was more ‘replication-y’, because it was the same amount of participants as the original. But now, after learning more about both replication studies, but also sample size more generally, I would really recommend to go with a much larger sample than the original study that you're replicating.
+
+And this is just so that you can be a little bit more sure about what your findings mean. So, in my study, I wasn't able to replicate the same result as the original authors, but this could just be because the true effect size that's in the world for that effect that I was looking at might be smaller than what they kind of measured in the original study.
+
+If I had used a much larger number of participants, if I still wasn't able to replicate the study, we could be a bit more sure that it wasn't just because of low sample size.
+
+I ran my study just as a normal study where we finished the entire study and then submitted it to a journal for publication. And I was lucky that it was successful in getting published.
+
+But it could have been a lot harder for me to publish, which would have been a bit disappointing and taken a lot of time. So what I would recommend instead is submitting any replication study as a registered report.
+
+A registered report is essentially where your paper gets peer-reviewed before you have collected data. So the peer reviewers say whether your protocol makes sense, recommend any suggested changes, and then once they've accepted it, the journal agrees to accept your study, regardless of what the outcome is. So that would be my third piece of advice.
+:::
+
+**Video 2: Conducting a replication study**
+
+Write your comments on what Priya advises. *Allow about 10 minutes.* When you are ready, see our comments.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+  <strong>Advice from Priya</strong>
+  <br>
+Priya suggests getting in touch with the authors of the original study and asking for more detail than a published paper provides. Using a larger sample size increases confidence that your findings do (or don’t) support those of the previous study. Priya also recommends submitting a registered report, to increase your chances of getting published. 
+  </p>
+</details>
+```
+
+### Limits to replication
+
+There are fields and methodologies where the value of replication is hotly debated. For instance:
+
+-   Some argue that replication should be encouraged in qualitative research, whereas others argue that there are still open questions about whether replication is possible, desirable, or even aligned with the fundamental principles of qualitative research.
+
+-   Economics has had a long history with replication studies, but not under this name. In economics, replication often takes place as ‘robustness checks’, where researchers test if their results hold when they use different datasets.
+
+-   Research in the humanities is primarily interpretive and context-specific, focusing on understanding human experiences, cultures, texts, and historical events. This interpretive nature makes exact replication more challenging.
+
+It is important to think carefully about whether replication makes sense for your field and methodology.
+
+If you are working in a field where replication is important, and if your study replicates the one you are trying to replicate, you can be pretty confident about the result.
+
+But what does it mean if, like Priya’s first attempts, your study does not replicate? One explanation could be that the original result was a ‘`r glossary("false positive")`’ , and so the failed replication is a ‘true negative’. Another explanation is that the replication result was a ‘`r glossary("false negative")`’, and that the original study was a ‘true positive’. It’s also possible that differences between the two studies are responsible for the different results.
+
+#### Activity 1 {.unnumbered}
+
+*Allow about 10 minutes.*
+
+This activity relates to our examples of typical direct and conceptual replication studies. By way of reminder:
+
+**Researcher A** finds a surprising finding in their research. To test whether they should rely on this result, they conduct a replication immediately after, using all the same materials and the same participant pool. This is a direct replication.
+
+**Researcher B** wants to replicate a study they’ve read about. They don’t think the original study was well-designed, but they think the hypothesis is interesting, so they design a new study testing the same hypothesis but in a different way. This is a conceptual replication.
+
+Now imagine these two researchers both carry out their studies. List the reasons why each of these two researchers may not replicate the original result.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+  <strong>Why were the two researchers unable to replicate the original results?</strong><br>
+You might have listed: 
+<ul>
+<li> The original result was a false positive</li>
+<li> The replication result is a false negative</li>
+<li> There are important differences between the original study and the replication study:</li>
+<ul >
+<li style="list-style-type: none;">a. These could be small changes that researchers didn’t think should be important but that turned out to be (e.g.: which brand of a specific chemical was used).</li>
+<li style="list-style-type: none;">b. It could be that the replication researcher didn’t realise these were differences because there wasn’t enough detail in the original paper to be able to work out how everything had been done.</li>
+<li style="list-style-type: none;">c. The replication researcher might know they’re making a change from the original protocol, but approve this change because theoretically it shouldn’t make a difference to the result.</li>
+</ul>
+</ul>
+  </p>
+</details>
+```
+
+## The replication crisis
+
+This section will highlight some of the issues around replication in quantitative research. Replication is possible in qualitative research, and many qualitative researchers see the value of replication. So if you are a qualitative researcher, this section is still relevant to you. It will allow you to explore key issues faced by quantitative colleagues, learn how to read quantitative research papers more critically, and think about whether these issues could also apply to qualitative research, albeit manifested differently.
+
+If we consider relatively direct replications, using the same materials as the original authors but conducted by different researchers, what percentage of published results do you imagine would replicate? It would be tempting to think that most published research findings are true, and therefore that a replication of a published research finding would be pretty likely to find the same result. However, researchers have found these percentages of findings could not be replicated:
+
+-   Psychology: up to 60%
+-   Cancer biology: up to 55%
+-   Economics: up to 40%
+-   Philosophy: up to 30%
+
+The number of studies that could not be replicated was much higher than expected in certain fields, which has led some to refer to this as a ‘replication crisis'.
+
+Why is it that so many quantitative studies cannot be replicated? It’s complicated!
+
+Previously, you learned the three classifications of failed replications: the original result was a false positive, the replication result was a false negative, or differences between the two studies could have been responsible for the different results. However, these three interpretations are not all as likely as each other. There are ways to try and work out which of these are most likely.
+
+The original result being a false positive is more likely than you would think. Researchers often do not publish all the research that they do. As a researcher, there is an incentive to publish papers in ‘high impact’ journals (journals that are regarded highly in the researcher’s discipline, and that publish papers that receive a high number of citations). Historically, it has been harder to publish negative (null) results than positive (statistically significant) results, as journals have prioritised headline-grabbing results that confirm popular or contemporary positions. This has been the case for all journals, but especially high-impact ones.
+
+This means that researchers have an incentive to get positive results in their research and can feel disappointed, stressed, and even ashamed if they don’t get a significant result. This can entice them to turn to questionable research practices, to increase the likelihood of a false positive result.
+
+## Questionable research practices
+
+Yes, you read the end of the previous section correctly. There are questionable research practices that researchers may feel pressurised to use. Here are some examples:
+
+-   `r glossary("Phack1", "P-hacking")` : in quantitative research, p-hacking means exploiting techniques that increase the likelihood of obtaining a statistically significant result, for example by performing multiple analyses, or stopping data collection once a significant p-value is reached.
+-   Selective reporting: when results from research are deliberately not fully or accurately reported, in order to suppress negative or undesirable findings. For example, researchers might run two analyses but only report the one with significant findings, or be selective in what results are included in a report aimed at particular audiences.
+-   `r glossary("HARK-ing")`: is a shortening of ‘hypothesising after the results are known’. This is when researchers write their papers as if they had hypotheses that they then went on to test in their study, when really they made up the hypothesis after seeing their results, to pick one that best fit.
+-   `r glossary("Post-hoc justifications")`: means stating, after the fact, justifications for decisions made during the research project. For example, if the researcher only managed to recruit women for a study after trying to recruit all genders, but claimed in the paper that this was intentional.
+
+Although pressures to publish can sometimes be seen as barriers to transparency, the benefits of writing transparently can also be seen as a positive incentive, as the next section shows.
+
+## Writing transparently
+
+When writing manuscripts, researchers should aim to be as transparent as possible, being honest about what happened in the study, how it was conducted, and when and why decisions were made. By using questionable research practices, researchers make it more likely that they get a false positive result, which can partially explain low replicability rates.
+
+In the video, Priya introduced another important consideration for evaluating replication results: sample size (the number of samples in your study, e.g. participants). Smaller sample sizes make it more likely to get both a false positive and a false negative result. This is because smaller sample sizes provide less information about the population you are studying, which increases the variability and uncertainty in your results. With a small sample, the random variation (or 'noise') can more easily overshadow the true effect you are trying to measure. This means you might detect an effect that isn’t really there, a false positive, or miss an effect that actually exists, a false negative.
+
+For instance, imagine trying to judge the average height of a population by looking at just a few individuals. Your estimate is more likely to be off compared to measuring a larger group, because you may happen to have either a very tall or very short person in your sample. So, if you have an original study with a small sample size and a (well-designed) replication with a large sample size, you could be more confident in the result of the replication than the result of the original study.
+
+#### Activity 2: What not to do! {.unnumbered}
+
+*Allow about 10 minutes.*
+
+So far, you have considered good and bad writing practices. With these in mind, have a go at this ‘hack your way to scientific glory’ activity. First, choose a political party: Republican or Democrat (UK equivalents: Conservative or Labour). Then predict whether the party has a positive or negative impact on the economy. When you have done that, change aspects of the research (e.g. participant inclusion criteria and how you’re measuring your dependent variable) and see whether you can find a significant result (p \< 0.05) in your predicted direction.
+
+The reason this is an example of ‘what not to do’ is because when you first choose a political party and predict whether they will have a positive or negative impact on the economy, you are forming a hypothesis. But, if you then play around with the data until you get the result that you wanted, and only stop when you do, then you are fixing the result.
+
+The activity involves various questionable research practices, such as `r glossary("P-hacking")`, `r glossary("HARK-ing")`, `r glossary("Selective reporting", "selective reporting")`. However, there is a way to do different analyses on the same data without any of these being a problem. If instead of deciding on a hypotheses first then confirming it, you were to conduct purely exploratory research (without a hypothesis) you could be transparent about all of the different ways you looked at the data and how the results differed when you tried different things. This could even lead to people conducting their own future studies to confirm your exploratory results!
+
+When reading an academic paper, it’s important to read with a critical mindset and feel free to disagree with the methodological or analysis strategy, the interpretation of the results, or the conclusions drawn. Although we know that there are rare instances of outright fraud in science, we would expect that the researchers are truthfully describing what happened in the study, how it was conducted, and when and why decisions were made.
+
+## Generalisability
+
+You have learned that replication studies vary on a spectrum from ‘direct’ to ‘conceptual’. However, most replication studies have some differences from the original study, even if these weren’t intentional. Consider one of the examples from before, where a researcher was replicating a paper from the 1990s. The materials they create will be different from the original materials, and if what they’re studying is context-dependent, a lot might have changed since then.
+
+For example, a study on internet usage habits conducted in the 1990s would yield very different results if replicated today, due to the dramatic changes in technology and how people use the internet. Similarly, a study examining public attitudes toward mental health in the 1990s might produce different findings now because societal awareness and acceptance of mental health issues have evolved significantly over the past few decades.
+
+For this reason, some consider that most replication studies are actually generalisability studies. `r glossary("Generalisability")`means whether a particular result generalises beyond the specific participants and conditions of the study to broader groups of samples, settings, methods, or measures. For example, if we’re interested in public attitudes to mental health, it wouldn’t make sense for us to only ask people aged 50-60, or only men, or only those living in cities. It’s possible that any of these characteristics could affect people’s opinions on mental health, meaning the results would be biased and not representative of the full population.
+
+Without generalisability studies, it might be possible that the theoretical explanation for why the finding occurred might be incorrect. For example, there could even be a mistake in the design of the study that biased the results. For instance, imagine a biological study investigating the effects of a new drug using a specific strain of lab mice. If this particular strain has a unique genetic mutation that makes it respond differently to the drug compared to other strains, the study’s results might not generalize to other mice or to humans. This could lead to an incorrect conclusion about the drug’s overall effectiveness and safety.
+
+Researchers wishing to be transparent when writing their papers should declare possible '`r glossary("Constraints on generality")`' in the discussion section. This could take the form of a statement that identifies and justifies the target populations for the reported findings, and other considerations the authors think would be necessary for replicating their result. This could help other researchers to sample from the same populations when conducting a direct replication, or to test the boundaries of generalisability when conducting a conceptual replication.
+
+## Studying generalisability
+
+So you think your research has potential do good in the world, but don’t know how widely it can be applied? There are lots of different ways to study generalisability:
+
+-   Systematic reviews: these look at how an outcome varies in the published literature across samples, settings, measures and methods (meta-analyses do this statistically). This can be done without conducting any new studies.
+
+-   For example, UNICEF’s Evidence and Gap Map Research Briefs provide an overview of available evidence of the effectiveness of interventions to improve child well-being in low- and middle-income countries.
+
+Comparative studies: comparing results from different populations using the same (adapted) materials can show where there may be similarities and differences. For example, Hofstede's cultural dimensions theory, which identified and measured cultural differences across countries, particularly in the workplace context. Big team science `r glossary("Big team science")`: when researchers from around the world conduct the same study and pool their results, they can look at various factors affecting the presence or size of the effect they’re interested in. For example, the first ManyGoats project is examining goat responses to different human attentional states, and will be testing a diverse range of goats in different living conditions.
+
+#### Activity 3 {.unnumbered}
+
+*Allow about 10 minutes.*
+
+Think about a study in your field that would or wouldn’t generalise. Consider why this might be the case.
+
+Take some notes of your thoughts first, and see our discussion.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion </summary>
+  <p>
+  <br>
+  <strong>Why a study may or may not generalise</strong><br>
+There are lots of reasons why a study may or may not generalise. Imagine a study evaluating a new therapy for depression in a university clinic with primarily urban-based participants.<br>
+
+While the therapy showed significant improvement in depressive symptoms over ten weeks among a diverse sample, including college students and middle-aged adults of various ethnicities recruited through local health centres and university channels, its applicability to other populations and settings may be limited. Factors such as regional differences in mental health resources, demographic diversity beyond the studied age groups, and recruitment biases could affect the therapy's effectiveness in rural or suburban areas and among older adults or adolescents. 
+  </p>
+</details>
+```
+
+## Quiz
+
+This self-test quiz tackles key ideas in replication and the principle of generalisability.
+
+```{r echo = FALSE, message = FALSE}
+library("exams2forms")
+```
+
+```{r schoice1, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(c("assets/quiz/week3/q1.md", 
+              "assets/quiz/week3/q2.md", 
+              "assets/quiz/week3/q3.md", 
+              "assets/quiz/week3/q4.md", 
+              "assets/quiz/week3/q5.md"))
+```
+
+## Summary
+
+In this week, you learned about an important aspect of integrity: `r glossary("Replicability", "replicability")`. Replicability relates to whether or not a study ‘replicates’, i.e. whether or not, when you repeat the study with new data, you get the same result. You learned some reasons why replicability may be low in many fields, and how differences between studies may sometimes contribute to this. You also learned about the importance of generalisability in research. Next week, you’ll learn techniques which can support both the integrity and the transparency of your research.
+
+## References
+
+Camerer, C, Dreber, A, Forsell, E, Ho, T, Huber, J, Johannesson, M, Kirchler, M, Almenberg, J, Altmejd, A, Chan, T, Heikensten, E, Holzmeister, F, Imai, T, Isaksson, S, Nave, G, Pfeiffer, T, Razen, M, Wu, H (2016): **Evaluating replicability of laboratory experiments in Economics**. Science, 3 Mar 2016, Vol 351, Issue 6280, pp. 1433-1436.\
+Available at: [https://doi.org/10.1126/science.aaf0918](https://doi.org/10.1126/science.aaf0918){target="_blank"}
+
+Cova, F, Strickland, B, Abatista, A, (2021): **Estimating the reproducibility of experimental philosophy**. Review of Philosophy and Psychology 12(1):9-44\
+Available at: [https://www.researchgate.net/publication/325216701_Estimating_the_Reproducibility_of_Experimental_Philosophy](https://www.researchgate.net/publication/325216701_Estimating_the_Reproducibility_of_Experimental_Philosophy){target="_blank"}
+
+Ebersole CR, Mathur MB, Baranski E, et al (2020): **Many labs 5: Testing pre-data-collection peer review as an intervention to increase replicability**. Advances in Methods and Practices in Psychological Science. 2020;3(3):309-33\
+Available at: [https://doi.org/10.1177/2515245920958687](https://doi.org/10.1177/2515245920958687){target="_blank"}
+
+Ebersole C. R., Atherton O. E., Belanger A. L., Skulborstad H. M., Allen J. M., Banks J. B., … Nosek B. A. (2016): **Many Labs 3: Evaluating participant pool quality across the academic semester via replication**. Journal of Experimental Social Psychology, 67, 68–82.\
+Available at: [https://doi.org/10.1016/j.jesp.2015.10.012](https://doi.org/10.1016/j.jesp.2015.10.012){target="_blank"}
+
+Errington, T, Mathur, M, Soderberg, C, Denis, A, Perfito, N, Iorns, E, Nosek, B, (2021): **Investigating the replicability of preclinical cancer biology**, eLife.\
+Available at: [https://doi.org/10.7554/eLife.71601](https://doi.org/10.7554/eLife.71601){target="_blank"}
+
+Fifethirtyeight.com: **Hack your way to scientific glory** (website)\
+Available at: [https://projects.fivethirtyeight.com/ p-hacking/](https://projects.fivethirtyeight.com/%20p-hacking/){target="_blank"}
+
+FORRT (2024): **Lesson plan 8: open data and qualitative research (lesson template with a CC-By Attribution 4.0 licence)**.\
+Available at: [https://osf.io/nyfqx](https://osf.io/nyfqx){target="_blank"}
+
+Hofstede, G. (1980): **Culture's consequences: international differences in work-related values**. Beverly Hills, CA: Sage Publications.\
+Available at: [https://books.google.co.uk/books/about/Culture_s_Consequences.html?id=Cayp_Um4O9gC&redir_esc=y](https://books.google.co.uk/books/about/Culture_s_Consequences.html?id=Cayp_Um4O9gC&redir_esc=y){target="_blank"}
+
+Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., Bocian, K., Brandt, M. J., Brooks, B., Brumbaugh, C. C., Cemalcilar, Z., Chandler, J., Cheong, W., Davis, W. E., Devos, T., Eisner, M., Frankowska, N., Furrow, D., Galliani, E. M., . . . Nosek, B. A. (2014). **Investigating variation in replicability: A ‘many labs’ replication project**. Social Psychology, 45(3), 142–152.\
+Available at: [https://doi.org/10.1027/1864-9335/a000178](https://doi.org/10.1027/1864-9335/a000178){target="_blank"}
+
+ManyGoats (2025): [https://www.themanygoatsproject.com/](https://www.themanygoatsproject.com/){target="_blank"}
+
+Open Science Collaboration (2015): **Estimating the reproducibility of psychological science Science**, 349 aac4716.\
+Available at: [https://doi.org/10.1126/science.aac4716](https://doi.org/10.1126/science.aac4716){target="_blank"}
+
+Silverstein, P. (2020): **Evaluating the replicability and specificity of evidence for natural pedagogy theory**\
+Available at: [https://www.research.lancs.ac.uk/portal/en/publications/ evaluating-the-replicability-and-specificity-of-evidence-for-natural-pedagogy-theory(39b30b8b-7701-45b9-9009-d2d43bd5a006).html](https://www.research.lancs.ac.uk/portal/en/publications/%20evaluating-the-replicability-and-specificity-of-evidence-for-natural-pedagogy-theory(39b30b8b-7701-45b9-9009-d2d43bd5a006).html){target="_blank"}
+
+Silverstein, P., Gliga, T., Westermann, G., Parise, E.: **Probing communication induced biases in preverbal infants: two replication attempts of Yoon, Johnson and Csibra** Infant Behaviour and Development, 55, 77-87.\
+Available at: [https://www.sciencedirect.com/science/article/pii/ S0163638318301474?via%3Dihub](https://www.sciencedirect.com/science/article/pii/%20S0163638318301474?via%3Dihub){target="_blank"}
+
+Simons, D. J., Shoda, Y., & Lindsay, D. S. (2017): **Constraints on Generality (COG): A proposed addition to all empirical papers**. Perspectives on Psychological Science, 12(6), 1123-1128.\
+Available at: [https://doi.org/10.1177/1745691617708630](https://doi.org/10.1177/1745691617708630){target="_blank"}
+
+UNICEF Innocenti (2022): **Evidence and Gap Map Research Briefs: UNICEF Strategic Plan 2018–2021 Goal Areas**.\
+Available at: [https://www.unicef.org/innocenti/reports/evidence-and-gap-map-research-briefs](https://www.unicef.org/innocenti/reports/evidence-and-gap-map-research-briefs){target="_blank"}

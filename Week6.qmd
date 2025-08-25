@@ -1,0 +1,216 @@
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
+library(glossary)
+glossary_path("include/glossary.yml")
+glossary_popup("click")
+```
+
+```{r, echo=FALSE, results='asis'}
+glossary_style("#1A43BF", "underline", 
+               def_bg = "#333",
+               def_color = "white")
+```
+
+# Accessibility: Making your research accessible online
+
+In Weeks 2 to 5 of this course, you have explored two key principles of open research: transparency and integrity. Now let’s turn to the third principle of accessibility. Accessibility is crucial, because knowledge generation is a collective endeavour, funded at least in part by taxpayers, and so everyone has a right to the knowledge that is generated. For this short course, accessibility will be discussed in the context of journal manuscripts, while acknowledging that research can also be made accessible through many other outputs.
+
+`r glossary("Accessible research")` in this context means ensuring that all who are interested can consume, evaluate, and otherwise interact with research products and processes. Even if research is `r glossary("Transparent", "transparent")` and has `r glossary("Integrity", "integrity")`, if only certain people can access the research products, it is not truly open.
+
+## Open access
+
+One aspect of ensuring that all those who are interested are able to consume research products is `r glossary("Open access", "open access")`, which refers to manuscripts being made freely available and reusable. If a manuscript is truly ‘open access’ then the author should have full copyright permissions, which means they can use the final manuscript however they wish.
+
+To be reusable, the manuscript should be made available through a `r glossary("Creative Commons license", "Creative Commons")` (also known as CC) licencing, which offers more flexible usage rights for your work. As you learned in Week 2, there are various types of license, ranging from fairly permissive (e.g.: others can access, copy, use and adapt the work as long as credit is given to the author), to more restrictive (e.g.: credit must be given to the author, non-commercial uses only, and the work cannot be altered). You can find out more about licensing on the [Creative Commons website](https://creativecommons.org/share-your-work/cclicenses/){target="_blank"}.
+
+As well as being related to accessibility, you can consider open access to be another form of transparency. It makes manuscripts openly available, for the same reasons as you learned about in Week 2, for making data and materials openly available.
+
+Imagine you’re in a library searching for a book that you need for an assignment. You find the perfect one on the shelf, but when you try to open it, the pages are glued together. You can see the cover and read the blurb, but the valuable content inside is completely inaccessible to you. This is what it’s like to not be able to access an article because it’s behind a paywall.
+
+Open access can take many different forms:
+
+**Green open access** :green_circle:
+
+With green open access, the work is openly accessible from a public repository, such as a preprint server. This is a way researchers can provide access to their research without cost to themselves or their readers. Usually this means sharing a version of the manuscript openly (i.e. a version of the manuscript that has gone through the peer-review process, but has not been copy-edited or typeset by the publisher). The manuscript becomes freely available, either at the point of deposit or after a publisher's embargo period, usually 6 to 24 months.
+
+**Gold open access** :star:️
+
+With gold open access, the work is immediately openly accessible upon publication via the publisher’s website. Usually this means the researcher paying a fee to the publisher, which can be up to several thousand pounds. Some universities have a deal with certain publishers, and will pay this charge on behalf of the researcher.
+
+**Diamond open access** :gem:
+
+Diamond open access (also known as platinum open access) is where an organisation covers the cost of publication so that neither the reader nor the author pays to read or publish. The work is immediately openly accessible upon publication via the publisher’s website, without cost to researchers or their readers.
+
+If diamond open access is possible, why don’t more publishers offer it?
+
+## Journal publishing models
+
+The reason why more publishers don’t offer diamond open access is because the different journals have different `r glossary("Business models", "business models")`. Each journal will have a publisher, who plays a varying role in the operation and management of the journal. Publishers can be involved in editorial support, production and typesetting, distribution and access, marketing and promotion, financial management, copyright and licensing, and indexing and impact metrics.
+
+Here are some of the different business models for academic journals:
+
+```{=html}
+<table>
+  <caption><span data-qmd="Table: Journal Publishing -- Business Models"></span></caption>
+  <tbody>
+    <tr>
+      <td><strong>Subscription-based model</strong>: <br>Under this model, readers pay a subscription fee to access the journal's content. This fee could be paid by individuals, institutions like universities, or both. The journal may also offer print and online subscription options. </td>
+      <td><strong>Society or Association-based model</strong>: <br>Many journals are published by scholarly societies or professional associations. Depending on the society, the journal can either be a source of income for the society or association, or it can be financed by other sources of income.</td>
+    </tr>
+        <tr>
+      <td><strong>Open Access model</strong>: <br>In this model, sometimes referred to by its acronym ‘OA’, the content of the journal is freely available to readers without requiring a subscription. Instead, the costs of publication are often covered by charging authors a fee, known as an ‘article processing charge’, or ‘APC’.</td>
+      <td><strong>Advertising-supported model</strong>: <br>In this model, journals generate revenue by selling advertising space within their publications. Advertisers pay to reach the journal's audience, typically researchers, academics, and professionals in a specific field.</td>
+    </tr>
+        <tr>
+      <td><strong>Hybrid model</strong>: <br>Journals employing this model offer a combination of both subscription-based and open access options. Some articles are freely available (open access), while others require a subscription to access. Authors may choose to pay APCs to make their articles open access within a hybrid journal.</td>
+      <td><strong>Pay-per-view model</strong>: <br>Some journals offer individual articles for purchase on a pay-per-view basis. Readers can access specific articles by paying a fee for each article they wish to view, rather than subscribing to the entire journal.</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+### What help is available for authors when publishing in journals with an APC?
+
+Sometimes, institutions and/or research funders are willing to pay the APCs for authors to publish Open Access. Some institutions even have ‘Transitional Agreements’ with publishers to cover these APCs. Similarly, the UKRI block grant provides funding for eligible authors to meet publishing costs. Many journals also offer ‘APC waivers’ for eligible authors who are unable to pay. For authors seeking further assistance, exploring their institutional guidance or speaking directly with library staff can help identify other potential funding opportunities tailored to their specific needs.
+
+#### The Big Five {.unnnumbered}
+
+Many journals have a large publisher, e.g. Elsevier, Sage, Springer Nature, Taylor and Francis, and Wiley – the ‘big five’. These publishers are for-profit, meaning that they make a large amount of money from researchers (through APCs), universities (through subscriptions), or readers (through subscriptions and pay-per-view). For example, it has been estimated that the research community paid over \$1.06 billion in open access fees alone to the big five publishers between 2015 and 2018.
+
+#### Activity 1
+
+*Allow about 10 minutes.*
+
+Write down the advantages and disadvantages of each business model in terms of accessibility and open access to research. Which business model do you find the most concerning and why?
+
+![](images/writing-icon-credit-SmashIcons.png){width="50px" fig-align="left"}
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion</summary>
+  <p>
+  <br>
+There are many nuanced advantages and disadvantages to the different models. For example, the open access model ensures that anyone can read the published articles, but isn’t very accessible to authors, since they may not have the funding to pay to publish in the journal. Solving this problem, hybrid models mean that authors do not have to pay to publish, but then their article would be paywalled, making the model less accessible to readers.
+  </p>
+</details>
+```
+
+### Changing tides
+
+People have been working for years to build up open access publishing. Latin America is a global leader. Governments, foundations, and public universities in Latin America have fostered a vibrant culture of open access, with between fifty and ninety percent of articles published in the region appearing open access through platforms such as [SciELO](https://www.scielo.org/en/){target="_blank"} and [Redalyc](https://www.redalyc.org/){target="_blank"}, typically as diamond open access.
+
+[Plan S](https://www.coalition-s.org/){target="_blank"} is an initiative launched by Coalition S, a group of international research agencies and funders from around the world. The goal is to make all publicly funded research freely available to everyone. Under Plan S, researchers who receive funding from Coalition S members must publish their work in open access journals or platforms.
+
+More recently, academics have started developing independent journals, bypassing for-profit publishers. For example, the editorial team from the journal Lingua broke off from Elsevier and launched a new journal called [Glossa](https://www.glossa-journal.org/){target="_blank"}.
+
+When publishing your research, one consideration of where to publish can be the values of the journal, and whether you want to contribute to further profits for a for-profit publisher or not. The next few sections explore some of your options.
+
+## Preprints
+
+Although as researchers we can strive towards only publishing in open access journals that fully uphold our scientific values, life unfortunately is not that simple! As you learned in previous weeks, in academia, publishing in prestigious journals is incentivised, and impacts researchers’ ability to obtain grants, jobs and promotions. Unfortunately, what’s considered prestigious most often overlaps with for-profit publishers. This is why initiatives like [DORA](https://sfdora.org/){target="_blank"} (Declaration on Research Assessment) and responsible metrics are crucial. Rather than evaluating research based on the impact factor of the journal, which promotes the merits of individual works, they advocate evaluating research based on its quality and placing value on a wider range of scholarly outputs.
+
+Although it might seem tempting to boycott all for-profit publishers (and many are doing this), it can be a balancing act for researchers to weigh up the relative costs and benefits of trying to publish in a prestigious journal. Those with more privilege – such as researchers with a permanent job, or enough savings or support to not worry about not having a job for a while – are able to be more radical in their approach, so it’s important to acknowledge that researchers have their individual circumstances to consider when deciding which journals to publish in, and more generally, which open research practices to engage in.
+
+**Preprints** are a way to ensure that your work is openly accessible to others, regardless of where you publish your research. A preprint is a version of your article that you submit to a preprint repository. There are preprint repositories in many fields, e.g. [bioRxiv](https://www.biorxiv.org/){target="_blank"} (pronounced ‘bio-archive’), [PsyArXiv](https://osf.io/preprints/psyarxiv){target="_blank"} (pronounced ‘psy-archive’), and [PhilPapers](https://philpapers.org/){target="_blank"}. There are also discipline non-specific repositories, e.g. [OSF preprints](https://osf.io/preprints){target="_blank"}. All you need to do is upload a version of your paper to the server, and it is available for anyone to read free! This is also a great way to showcase your work before waiting for it to be peer-reviewed and published in a journal, which can be especially beneficial to early-career researchers.
+
+You can upload preprints for work that is already published in a journal, work that you’re submitting to a journal, and even work that you never intend to submit to a journal. There are different benefits to uploading preprints at these different stages:
+
+-   Alternative to a journal: If you’re not interested in publishing your paper in a peer-reviewed journal, or don’t have the time to do so, uploading it to a preprint server means that the research community can still read your findings and benefit from your hard work.
+
+-   Alongside submission to a journal: Submitting a preprint alongside submission to a journal gets your paper out there quicker than waiting for it to be peer-reviewed and published. If you submit a preprint before submitting to a journal, people outside of the journal’s reviewers can give informal feedback that you can implement in your journal submission (or in the next round of submission).
+
+-   After publishing in a journal: Submitting a preprint of work that has already been published in a journal means you can make your work green open access if it is currently published behind a paywall, meaning more people can read it.
+
+Many journals will allow you to publish a preprint of your work alongside submission to their journal, or after your article has been accepted in the journal. However, some journals will not. To check the rules for the journal that you’re interested in, enter the journal or publisher information in [Open Policy Finder](https://openpolicyfinder.jisc.ac.uk/){target="_blank"}.
+
+## Preprint considerations
+
+Preprints are used to varying degrees across different fields of research, and in different ways within these fields, so it might be worth having a chat with your colleagues or educators to find out what the norms are in your field before deciding how and whether to upload your own preprints.
+
+It’s important to consider that preprints that are published instead of, or alongside journal publication, have not always been peer-reviewed. This doesn’t automatically mean that they’re ‘worse’ than articles that have been peer-reviewed – many terrible manuscripts have slipped through peer-review, and many excellent ones have been rejected – but it does mean that readers should take the content with a pinch of salt and an even more critical eye than usual. This can be problematic when the public or journalists are interacting with preprints, as they might take the content as fact, which they shouldn’t even be doing for peer-reviewed work, let alone work that hasn’t been peer-reviewed.
+
+#### Activity 2:
+
+*Allow about 15 minutes.*
+
+Find a preprint server for your discipline, or if one doesn’t exist then use [OSF Preprints](){target="_blank"}. Spend ten minutes looking for the most interesting article you can find, and identify which stage of the research process it has been uploaded to the preprint server. Use keywords you would usually use to search for an article in your discipline, just like searching for a published article. Tip: usually, researchers will identify on the title page if the article has been submitted to or accepted by a journal.
+
+```{=html}
+<details>
+  <summary>Show / Hide Discussion</summary>
+  <p>
+  <br>
+Hopefully you could see whether preprints were published before or after publication in a journal. Preprints can be an excellent way to access the latest research findings in your area. Publishing a preprint allows you to gain feedback early. Preprints can also allow policy makers and practitioners to make decisions based on the latest research, and early-career researchers to build up a publication record quickly.
+  </p>
+</details>
+```
+
+## Beyond open access publishing
+
+There are many other accessibility needs to consider when thinking about how different people may access knowledge that is produced via research. Some people experience specific barriers, which we can help them to overcome. The image shows a hand holding up an equals sign which is crossed out.
+
+A blind person can benefit from text-to-speech software to access academic articles and textbooks. A deaf person can benefit from captioning when learning from a recorded lecture. Someone not familiar with technical language (e.g. a non-researcher member of the general public) might benefit from plain language summaries of the research and its potential use and impact, which could be through the form of a blog post for example (for more on diversity of scientific outputs see Week 8). Someone with dyslexia might find it difficult to read academic papers printed in a font that isn’t clear to read – yet there are dyslexia-friendly fonts readily available, that could make all the difference.
+
+In this course, we will only touch on a few aspects of accessibility to knowledge produced by research, but we encourage you to think about other ways you can increase accessibility of your research.
+
+## Quiz
+
+The quiz will help you consolidate what you have learned this week. The questions revise key terms related to accessibility, open access publishing and preprints. Make sure you read the feedback, whether you get the answers right or wrong.
+
+```{r echo = FALSE, message = FALSE}
+library("exams2forms")
+```
+
+```{r schoice1, echo = FALSE, message = FALSE, results = "asis"}
+exams2forms(c("assets/quiz/week6/q1.md", 
+              "assets/quiz/week6/q2.md", 
+              "assets/quiz/week6/q3.md", 
+              "assets/quiz/week6/q4.md", 
+              "assets/quiz/week6/q5.md", 
+              "assets/quiz/week6/q6.md"))
+```
+
+## Summary
+
+In this week, you learned about different models of open access and how this relates to journal `r glossary("Business models", "business models")`. You also learned how preprints are an easy and helpful way to ensure that your work is openly accessible to everyone, and some tips for how and when to upload preprints. In the next week, you’ll be learning about other ways of making your research accessible to people around the world!
+
+## References
+
+Alperin, J. P. (2015): **The public impact of Latin America's approach to open access** Stanford University.\
+Available at: [https://stacks.stanford.edu/file/druid:jr256tk1194/AlperinDissertationFinalPublicImpact-augmented.pdf](https://stacks.stanford.edu/file/druid:jr256tk1194/AlperinDissertationFinalPublicImpact-augmented.pdf){target="_blank"}
+
+American Society for Cell Biology (2024): **Declaration on Research Assessment (DORA)**.\
+Available at: <https://sfdora.org/>
+
+Barnes, L. (2018): **Green, gold, diamond black – what does it all mean?**\
+Available at: [https://blogs.openbookpublishers.com/green-gold-diamond-black-what-does-it-all-mean/](https://blogs.openbookpublishers.com/green-gold-diamond-black-what-does-it-all-mean/){target="_blank"}
+
+Butler, L. A., Matthias, L., Simard, M. A., Mongeon, P., & Haustein, S. (2023): **The oligopoly’s shift to open access: How the big five academic publishers profit from article processing charges**. Quantitative Science Studies, 4(4), 778-799.\
+Available at: [https://doi.org/10.1162/qss_a_00272](https://doi.org/10.1162/qss_a_00272){target="_blank"}
+
+Center for Open Science (2024): **OSF Preprints**\
+Available at: [https://osf.io/preprints](https://osf.io/preprints){target="_blank"}
+
+Coalition S (2024): **Plan S: making full and immediate open access a reality** Available at: [https://www.coalition-s.org/](https://www.coalition-s.org/){target="_blank"}
+
+Cold Spring Harbour Laboratory (2024): **bioRxiv: the Preprint Server for Biology** Available at: [https://www.biorxiv.org/](https://www.biorxiv.org/){target="_blank"}
+
+Creative Commons (2024): **About CC licenses**\
+Available at: [https://creativecommons.org/share-your-work/cclicenses/](https://creativecommons.org/share-your-work/cclicenses/){target="_blank"}
+
+JISC Open Policy Finder (2025): **Open Policy Finder**\
+Available at: [https://openpolicyfinder.jisc.ac.uk/](https://openpolicyfinder.jisc.ac.uk/){target="_blank"}
+
+Linguistics in Open Access (LingOA, 2024): **Glossa: a journal of general linguistics**\
+Available at: [https://www.glossa-journal.org/](https://www.glossa-journal.org/){target="_blank"}
+
+Network of Scientific Journals from Latin America and the Caribbean, Spain and Portugal (2024): **Redalyc**\
+Available at: [https://www.redalyc.org/](https://www.glossa-journal.org/){target="_blank"}
+
+PhilPapers Foundation (2024): **PhilPapers (index and bibliography of philosophy)**\
+Available at: [https://philpapers.org/](https://philpapers.org){target="_blank"}
+
+SciELO (2024): **Scientific Electronic Library Online (SciELO)**\
+Available at: [http://scielo.org/en/](http://scielo.org/en/){target="_blank"}
+
+Society for the Improvement of Psychological Science **Preprints / OSF (2024): PsyArXiv**\
+Available at: [https://osf.io/preprints/psyarxiv](https://osf.io/preprints/psyarxiv){target="_blank"}

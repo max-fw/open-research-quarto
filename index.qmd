@@ -1,0 +1,49 @@
+---
+format:
+  html:
+    css: 
+    - styles.css
+    - include/webex.css
+    include-after-body: include/webex.js
+    linestretch: 1.75
+toc: true
+toc-depth: 4
+from: markdown+emoji
+include-in-header:
+  - text: |
+     <link rel = "shortcut icon" href = "assets/forrt_icon.png" />
+---
+
+# Overview {.unnumbered}
+
+**Welcome to the Open Research course!** This course will guide you in making your research more open.
+
+This course is intended for self-paced learning, aimed at academic researchers and scientists in any field and at any stage of their careers. The course is organised into 8 chapters, which you can either complete step-by-step over 8 weeks, or you can focus on specific topics of interest!
+
+**Outline**: First, you will explore what open research is, why it’s important, and how it can be applied to different disciplines and stages of the research process. You will become familiar with the underlying principles of open research: transparency, integrity, and accessibility. You will consider the actions you need to take to ensure your own research outputs meet all three of these standards.
+
+The decision-making tree below summarises the topics covered in this course.
+
+#### Open Research Decision Tree {.unnumbered}
+
+![](images/decision_tree.png){fig-align="left"}
+
+::: {.callout-tip icon="false"}
+## Acknowledgment {.unnumbered}
+
+This course is adapted from the [**Open Research**](https://www.open.edu/openlearncreate/course/view.php?id=11974){target="_blank"} course authored by [Priya Silverstein](https://www.priyasilverstein.com/){target="_blank"}, available on the Open University's OpenLearn platform.
+:::
+
+## License {.unnumbered}
+
+Our course and the original Open University course are both governed by the [Creative Commons CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/){target="_blank"}.
+
+::: {.callout-tip icon="false"}
+## Citation {.unnumbered}
+
+Silverstein, P. (2025) Open Research. Framework for Open and Reproducible Research Training (FORRT). [https://github.com/forrtproject/Open-Research-course](%5Bhttps://github.com/forrtproject/Open-Research-course){target="_blank"}
+:::
+
+**R version**: This is a Quarto book built with the R bookdown package. See [Github](https://github.com/forrtproject/Open-Research-course){target="_blank"} for the source files.
+
+**Contact us**: If you find errors or typos, have questions or suggestions, please file an issue at [Github](https://github.com/forrtproject/Open-Research-course){target="_blank"}, or use this [Google Form](https://forms.gle/agyL2pyQvWdXQ4bk8){target="_blank"}. Thanks!
