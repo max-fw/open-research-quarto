@@ -1,2 +1,3 @@
-# Open Research course, adapted from Open University course 
-## Created for FORRT
+# Open Research course
+## Created for FORRT, adapted from Open University
+
